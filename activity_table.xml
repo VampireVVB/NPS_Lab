@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="16dp">
+
+    <TableRow>
+        <TextView android:text="Name" android:padding="8dp" android:textStyle="bold"/>
+        <TextView android:text="John Doe" android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Email" android:padding="8dp" android:textStyle="bold"/>
+        <TextView android:text="john@example.com" android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Phone" android:padding="8dp" android:textStyle="bold"/>
+        <TextView android:text="+1234567890" android:padding="8dp"/>
+    </TableRow>
+
+</TableLayout>
